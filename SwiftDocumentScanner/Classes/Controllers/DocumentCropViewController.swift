@@ -44,7 +44,7 @@ open class DocumentCropViewController: UIViewController {
 			rectangleDetector = VisionImageRectangleDetector()
 		}
 
-		SECropView.goodAreaColor = .white
+		SECropView.goodAreaColor = .red
 		SECropView.badAreaColor = .red
 
 		configure()
